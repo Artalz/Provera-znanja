@@ -1,0 +1,16 @@
+<!ELEMENT Magacin (Artikal)+>
+<!ELEMENT Artikal (Naziv, DatumIzrade, Cena, Kompanija, (Email)+)>
+<!ELEMENT Naziv (#PCDATA)>
+<!ELEMENT DatumIzrade (Dan, Mesec, Godina)>
+<!ELEMENT Dan (#PCDATA)>
+<!ELEMENT Mesec (#PCDATA)>
+<!ELEMENT Godina (#PCDATA)>
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT Kompanija (Naziv, (Adresa)+)>
+<!ELEMENT Naziv (#PCDATA)>
+<!ELEMENT Adresa (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ATTLIST Naziv sifra CDATA #REQUIRED>
+<!ATTLIST Cena valuta (rsd|eur) "rsd">
+<!ATTLIST Email tip (privatni|sluzbeni) #REQUIRED>
