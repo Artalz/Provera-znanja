@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Magacin SYSTEM "magacin.dtd">
+
+
+<Magacin xmlns="http://www.w3schools.com" 
+elementFormDefault="qualified" 
+targetNamespace="http://www.w3schools.com" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema magacin.xsd">>
+    <Artikal>
+        <Naziv  sifra="1">Jogurt</Naziv>
+        <DatumIzrade>
+            <Dan>3</Dan>
+            <Mesec>7</Mesec>
+            <Godina>2019</Godina>
+        </DatumIzrade>
+        <Cena valuta="rsd">100</Cena>
+        <Kompanija>
+            <naziv>Imlek</naziv>
+            <Adresa>Vojvode Stepe 284</Adresa>
+        </Kompanija>
+        <Email tip="privatni">imlekpriv@gmail.com</Email>
+        <Email tip="sluzbeni">imlek@gmail.com</Email>
+    </Artikal>
+    <Artikal>
+        <Naziv sifra="2">Pepsi</Naziv>
+        <DatumIzrade>
+            <Dan>9</Dan>
+            <Mesec>5</Mesec>
+            <Godina>2020</Godina>
+        </DatumIzrade>
+        <Cena valuta="eur">2</Cena>
+        <Kompanija>
+            <naziv>Pepsi</naziv>
+            <Adresa>Vojvode Stepe 283</Adresa>
+        </Kompanija>
+        <Email tip="privatni">pepsipriv@gmail.com</Email>
+        <Email tip="sluzbeni">pepsi@gmail.com</Email>
+    </Artikal>
+</Magacin>
+
